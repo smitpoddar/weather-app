@@ -29,7 +29,7 @@ cityInput.addEventListener("change", () => {
 });
 
 async function getWeather(city) {
-  const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
   const response = await fetch(apiUrl);
 

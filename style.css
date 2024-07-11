@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #FFEFBA, #FFFFFF);
+}
+
+.weatherForm {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cityInput {
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgba(0, 128, 0, 0.435);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.685);
+}
+
+.card {
+    margin-top: 20px;
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    padding: 40px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
+
+.feelsLikeDisplay {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    color: hsla(0, 0%, 0%, 0.75);
+    font-size: 18px;
+}
+.weatherEmoji{
+   font-size: 3rem;
+}
+
+@media (max-width: 620px) {
+    body {
+        align-items: center;
+    }
+
+    .cityInput {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    .card {
+        width: 60vw;
+        min-width: unset;
+    }
+
+    .weatherForm {
+        flex-direction: column;
+        align-items: center;
+    }
+}

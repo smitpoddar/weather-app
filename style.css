@@ -74,7 +74,7 @@ p {
 
 .humidityDisplay {
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .description {
@@ -95,7 +95,7 @@ p {
 }
 
 .feelsLikeDisplay {
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: Arial, sans-serif;
     color: hsla(0, 0%, 0%, 0.75);
     font-size: 18px;

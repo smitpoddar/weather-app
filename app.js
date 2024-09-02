@@ -6,7 +6,7 @@ const apikey = "083815eb1b743edfa8045df57bda332b";
 
 const weatherEmojis = {
   clear: "☀️",
-  clouds: "☁️",
+  clouds: "⛅",
   rain: "🌧️",
   drizzle: "🌦️",
   thunderstorm: "⛈️",
@@ -88,18 +88,18 @@ function displayWeatherInfo(data) {
   emojiDisplay.textContent = emoji;
 
   card.appendChild(cityDisplay);
+  card.appendChild(emojiDisplay);
   card.appendChild(tempDisplay);
   card.appendChild(humidityDisplay);
   card.appendChild(descDisplay);
   card.appendChild(feelLikeDisplay);
-  card.appendChild(emojiDisplay);
 
   cityDisplay.classList.add("cityDisplay");
+  emojiDisplay.classList.add("weatherEmoji");
   tempDisplay.classList.add("tempDisplay");
   humidityDisplay.classList.add("humidityDisplay");
   descDisplay.classList.add("description");
   feelLikeDisplay.classList.add("feelsLikeDisplay");
-  emojiDisplay.classList.add("weatherEmoji");
 }
 
 function displayError(message) {

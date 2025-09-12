@@ -24,7 +24,7 @@ Weather API (OpenWeatherMap or similar) → Live weather data
 🔄 Instant API updates
 
 # Clone the repository
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/smitpoddar/weather-app.git
 
 # Navigate into project folder
 cd weather-app

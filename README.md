@@ -9,8 +9,6 @@ HTML5, CSS3 → UI design & responsiveness
 
 JavaScript (ES6) → Logic & API handling
 
-React.js (if included) → Component-based UI
-
 Weather API (OpenWeatherMap or similar) → Live weather data
 
 ⚡ Features
